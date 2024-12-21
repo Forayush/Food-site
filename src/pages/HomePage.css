@@ -1,0 +1,133 @@
+/* General Styles */
+.home-page {
+    font-family: 'Arial', sans-serif;
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    background-color: #ff5733;
+    color: white;
+    padding: 50px 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+/* Featured Dishes Section */
+.featured-section {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.featured-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: 600;
+}
+
+.featured-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.featured-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.featured-item:hover {
+    transform: translateY(-5px);
+}
+
+.featured-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.featured-item h3 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+    color: #333;
+}
+
+.featured-item p {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Special Offer Section */
+.special-offer {
+    text-align: center;
+    background-color: #e8e8e8;
+    padding: 40px 20px;
+    border-radius: 8px;
+}
+
+.special-offer h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #ff5733;
+}
+
+.special-offer p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Button Styles */
+.offer-btn, .menu-btn {
+    background: linear-gradient(135deg, #ff5733, #ff8c00);
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+    text-align: center;
+}
+
+.offer-btn:hover, .menu-btn:hover {
+    transform: translateY(-3px);
+    background-color: #e04e2e;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Disabled State */
+.offer-btn:disabled, .menu-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* General Button Padding & Margins */
+.offer-btn {
+    margin-top: 20px;
+}
+
+.menu-btn {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
